@@ -25,3 +25,14 @@ body{
 #Radio1, #Radio2, #Radio3, #Radio4, #Radio5, #Radio6, #Radio7, #Radio8, #Radio9{
   text-align: center;
 }
+#pizza-Form{
+  width:30%;
+  margin-left: 40px;
+  padding:5px;
+  float:
+}
+.pizza-type{
+  background-color: #141b1c;
+  color:#e9f1f3;
+  background: fill;
+}
