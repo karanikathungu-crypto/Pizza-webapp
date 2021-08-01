@@ -21,18 +21,43 @@ body{
   float:inline-start;
 }
 .form-check{
+
 }
+
 #Radio1, #Radio2, #Radio3, #Radio4, #Radio5, #Radio6, #Radio7, #Radio8, #Radio9{
   text-align: center;
 }
 #pizza-Form{
-  width:30%;
-  margin-left: 40px;
+  width:60%;
+  margin-left: 400px;
   padding:5px;
-  float:
+
 }
 .pizza-type{
   background-color: #141b1c;
   color:#e9f1f3;
-  background: fill;
+  
+}
+#text-SectionOne{
+  color:#e9f1f3;
+}
+#OrderHeader{
+  text-align:center;
+  color: #e9f1f3;
+}
+#OrderParagraph{
+  color: #e9f1f3;
+  text-align: center;
+}
+.pizza-image{
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+.pizza-description{
+  text-align: center;
+  color: #e9f1f3;
+}
+#pizza-numbers{
+  width:60px;
 }
