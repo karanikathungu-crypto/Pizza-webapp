@@ -1,0 +1,27 @@
+body{
+  background-color:  #141b1c;
+}
+#first-image-section{
+  background-image: url("../Images/pizza2.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-attachment:scroll;
+  background-size: 100% 100%;
+  width:75%;
+  color:#e9f1f3;
+  padding-bottom: 100px;
+  padding-top: 500px;
+  margin: 0px;
+}
+#menu-order{
+  background-color:  #c9d8dc ;
+  height: 70%;
+  opacity: 0.8;
+  color: #141b1c;
+  float:inline-start;
+}
+.form-check{
+}
+#Radio1, #Radio2, #Radio3, #Radio4, #Radio5, #Radio6, #Radio7, #Radio8, #Radio9{
+  text-align: center;
+}
