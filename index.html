@@ -20,7 +20,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Order</a>
+              <a class="nav-link" href="#pizza-Form">Order</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Location</a>
@@ -32,91 +32,224 @@
     <div class="container-fill">
       <div class="row" id="first-image-section">
         <div class="col-md-6">
-          <p>Welcome to the tastiest pizzeria around town. Lisah's pizzeria offers a wide range of pizzas to match your every taste.</p>
+         
         </div>
     </div>
-    <form id="pizza-Form">
+    <div class="container">
+      <div class="row" id="text-SectionOne">
+        <div class="col-md-12">
+          <p>Welcome to the tastiest pizzeria around town. Lisah's pizzeria offers a wide range of pizzas to match your every taste.</p>
+          <p>We have an array of pizza toppings to add on to make the pizza mouth watering and savoury to the toungue</p>
+          <p>To set specifications for your pizza from the size to the toppings kindly check the order section to select your pizza</p>
+        </div>
+      </div>
+    </div>
+    <div class="container" >
+      <div class="card-group">
+        <div class="card">
+          <img src="Images/Margherita.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Margherita pizza</h5>
+            <p class="card-text">Margeritta pizza consists of grilled margheritta cheese fused with tomato and salami</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Images/Barbeque.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Barbeque pizza</h5>
+            <p class="card-text">Barbeque chicken pizza entails chunks of well grilled chicken with hints of rosemary and some mild peppers</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="Images/hawaiian.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hawaiian pizza</h5>
+            <p class="card-text">Tasty pineapple topping well fried salami makes up this yummy pizza</p>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card">
+            <img src="Images/cheese.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cheese pizza</h5>
+              <p class="card-text">Filled with mouth-watering cheese, this pizza contains fried onions and tomatoes fused with tasty cheese</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Images/meat.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Meat pizza</h5>
+              <p class="card-text">For lovers of protein this pizza comes packed with heavy beef with fried onions and tomatoes</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="Images/Vegetarian.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vegetarian pizza</h5>
+              <p class="card-text">The pizza is made with no animal proteins and consists of tasty olives with rosemary and gluten free cheese</p>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="container">
       <div class="container">
         <div class="row">
-            <div class="col-md-6" id="menu-order">
-              <label class="pizza-type">Pizza size</label>
-              <div class="form-check">
-                <input class="form-check-input" class="form-control" type="radio" name="exampleRadios1" id="Radio1" value="option1">
-                <label class="form-check-label" for="exampleRadios1">
-                  Small
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" class="form-control" type="radio" name="exampleRadios1" id="Radio1" value="option2">
-                <label class="form-check-label" for="exampleRadios2">
-                  Medium
-                </label>
-             </div>
-             <div class="form-check">
-              <input class="form-check-input" class="form-control" type="radio" name="exampleRadios1" id="Radio1" value="option3">
-              <label class="form-check-label" for="exampleRadios2">
-                Large
-              </label>
-            </div>
+          <div class="col-md-12">
+            <h3 id="OrderHeader">Order your pizza here</h3>
+            <p id="OrderParagraph">Choose your pizza type by selecting one option from each category in the form below</p>
           </div>
         </div>
       </div>
-      <div class="container">
+      <form id="pizza-Form">
+        <div class="container">
           <div class="row">
             <div class="col-md-6" id="menu-order">
-              <label class="pizza-type">Pizza crust</label>
+              <label class="pizza-type">Pizza type</label>
               <div class="form-check">
-                <input class="form-check-input" class="form-control" type="radio" name="exampleRadios2" id="Radio4" value="option4">
+                <input class="form-check-input" class="form-control" type="radio" name="exampleRadios4" id="Radio12" value="option12">
                 <label class="form-check-label" for="exampleRadios1">
-                  Crispy
+                  Margeritta
                 </label>
               </div>
               <div class="form-check">
-                <input class="form-check-input" class="form-control" type="radio" name="exampleRadios2" id="Radio5" value="option5">
+                <input class="form-check-input" class="form-control" type="radio" name="exampleRadios4" id="Radio13" value="option13">
                 <label class="form-check-label" for="exampleRadios2">
-                  Stuffed
+                  Barbeque
                 </label>
             </div>
             <div class="form-check">
-              <input class="form-check-input"  class="form-control" type="radio" name="exampleRadios2" id="Radio6" value="option6">
+              <input class="form-check-input"  class="form-control" type="radio" name="exampleRadios4" id="Radio14" value="option14">
               <label class="form-check-label" for="exampleRadios2">
-                Glutten-free
+                Hawaiian
               </label>
             </div>
+            <div class="form-check">
+              <input class="form-check-input" class="form-control" type="radio" name="exampleRadios4" id="Radio15" value="option15">
+              <label class="form-check-label" for="exampleRadios2">
+                Cheese
+              </label>
           </div>
+          <div class="form-check">
+            <input class="form-check-input"  class="form-control" type="radio" name="exampleRadios4" id="Radio16" value="option16">
+            <label class="form-check-label" for="exampleRadios2">
+              Meat
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input"  class="form-control" type="radio" name="exampleRadios4" id="Radio17" value="option17">
+            <label class="form-check-label" for="exampleRadios2">
+              Vegetarian
+            </label>
+          </div>
+         </div>
+        </div>
+      </div>
+        <div class="container">
+          <div class="row">
+              <div class="col-md-6" id="menu-order">
+                <label class="pizza-type">Pizza size</label>
+                <div class="form-check">
+                  <input class="form-check-input" class="form-control" type="radio" name="exampleRadios1" id="Radio1" value="option1">
+                  <label class="form-check-label" for="exampleRadios1">
+                    Small
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" class="form-control" type="radio" name="exampleRadios1" id="Radio1" value="option2">
+                  <label class="form-check-label" for="exampleRadios2">
+                    Medium
+                  </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" class="form-control" type="radio" name="exampleRadios1" id="Radio1" value="option3">
+                <label class="form-check-label" for="exampleRadios2">
+                  Large
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-6" id="menu-order">
+                <label class="pizza-type">Pizza crust</label>
+                <div class="form-check">
+                  <input class="form-check-input" class="form-control" type="radio" name="exampleRadios2" id="Radio4" value="option4">
+                  <label class="form-check-label" for="exampleRadios1">
+                    Crispy
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" class="form-control" type="radio" name="exampleRadios2" id="Radio5" value="option5">
+                  <label class="form-check-label" for="exampleRadios2">
+                    Stuffed
+                  </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input"  class="form-control" type="radio" name="exampleRadios2" id="Radio6" value="option6">
+                <label class="form-check-label" for="exampleRadios2">
+                  Glutten-free
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6" id="menu-order">
+              <label class="pizza-type">Pizza toppings</label>
+              <div class="form-check">
+                <input class="form-check-input" class="form-control" type="radio" name="exampleRadios3" id="Radio7" value="option7">
+                <label class="form-check-label" for="exampleRadios1">
+                  Tomato
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" class="form-control" type="radio" name="exampleRadios3" id="Radio8" value="option8">
+                <label class="form-check-label" for="exampleRadios2">
+                  Onions
+                </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input"  class="form-control" type="radio" name="exampleRadios3" id="Radio9" value="option9">
+              <label class="form-check-label" for="exampleRadios2">
+                Black olives
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" class="form-control" type="radio" name="exampleRadios3" id="Radio10" value="option10">
+              <label class="form-check-label" for="exampleRadios2">
+                Mushrooms
+              </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input"  class="form-control" type="radio" name="exampleRadios3" id="Radio11" value="option11">
+            <label class="form-check-label" for="exampleRadios2">
+              Pepperoni
+            </label>
+          </div>
+         </div>
         </div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-md-6" id="menu-order">
-            <label class="pizza-type">Pizza toppings</label>
-            <div class="form-check">
-              <input class="form-check-input" class="form-control" type="radio" name="exampleRadios3" id="Radio7" value="option7">
-              <label class="form-check-label" for="exampleRadios1">
-                Tomato
-              </label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" class="form-control" type="radio" name="exampleRadios3" id="Radio8" value="option8">
-              <label class="form-check-label" for="exampleRadios2">
-                Onions
-              </label>
-          </div>
-          <div class="form-check">
-            <input class="form-check-input"  class="form-control" type="radio" name="exampleRadios3" id="Radio9" value="option9">
             <label class="form-check-label" for="exampleRadios2">
-              Black olives
+              Enter number of pizzas to order:
             </label>
+            <input id="pizza-numbers" class="form-check-input"type="number" name="pizza-number" value="pizza-number">
           </div>
         </div>
       </div>
+      
       <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            
+          <div class="row">
+            <div class="col-md-6">
+              
 
+            </div>
           </div>
-        </div>
+        
       </div>
     </form>
   </body>
