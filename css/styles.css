@@ -27,10 +27,11 @@ body{
 #Radio1, #Radio2, #Radio3, #Radio4, #Radio5, #Radio6, #Radio7, #Radio8, #Radio9{
   text-align: center;
 }
-#pizza-Form{
+#pizzaForm{
   width:60%;
   margin-left: 400px;
   padding:5px;
+  
 
 }
 .pizza-type{
@@ -60,4 +61,9 @@ body{
 }
 #pizza-numbers{
   width:60px;
+}
+#submit-btn{
+text-align: center;
+margin:5px;
+margin-left: 80px;
 }
