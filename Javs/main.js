@@ -33,5 +33,6 @@ Pizza.prototype.displayPrice= function(){
   else{
     alert("Kindly select required options before submitting")
   }
-}
+ }
+ alert(clientPizza.displayPrice());
 }
