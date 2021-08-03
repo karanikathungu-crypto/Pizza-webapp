@@ -50,8 +50,11 @@ Pizza.prototype.displayLocation= function(){
     var location=prompt("Enter the location for delivery").value;
     alert("Your order will be delivered to"+location+".");
  }
-  else{
+  else if(Radio15.checked===true){
     alert("Your pizza will be ready for pickup in 20minutes");
+  }
+  else{
+    alert("Your pizza will be ready to go after confirming pickup or delivery option");
   }
   // Radio16.checked===true? prompt("Enter the location for delivery"): alert("Your pizza will be ready for pickup in 20minutes");
   // alert("Your order will be delivered to your location");
