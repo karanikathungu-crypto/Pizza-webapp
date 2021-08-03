@@ -24,8 +24,8 @@ body{
 
 }
 
-#Radio1, #Radio2, #Radio3, #Radio4, #Radio5, #Radio6, #Radio7, #Radio8, #Radio9{
-  text-align: center;
+#Radio1, #Radio2, #Radio3, #Radio4, #Radio5, #Radio6, #Radio7, #Radio8, #Radio9,#Radio10,#Radio11{
+  text-align:center;
 }
 #pizzaForm{
   width:60%;
