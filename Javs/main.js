@@ -21,13 +21,13 @@ let pizzaQuanity= parseInt(document.getElementById("pizza-numbers").value);
 var clientPizza= new Pizza(pizzaType,pizzaSize,pizzaCrust,pizzaTopping,pizzaQuanity);
 
 Pizza.prototype.displayPrice= function(){
-  if(clientPizza.pizzaSize==="small"){
+  if(Radio1.checked===true){
     alert("The price of the pizza will be ksh 500");
   }
-  else if(clientPizza.pizzaSize==="medium"){
+  else if(Radio2.checked===true){
     alert("The price if the pizza will be ksh 700");
   }
-  else if(clientPizza.pizzaSize==="large"){
+  else if(Radio3.checked===true){
     alert("The price of the pizza will be ksh 900");
   }
   else{
