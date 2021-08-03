@@ -25,7 +25,7 @@ Pizza.prototype.displayPrice= function(){
     alert("The price of the pizza will be ksh 500");
   }
   else if(Radio2.checked===true){
-    alert("The price if the pizza will be ksh 700");
+    alert("The price 0f the pizza will be ksh 700");
   }
   else if(Radio3.checked===true){
     alert("The price of the pizza will be ksh 900");
