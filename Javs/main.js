@@ -9,16 +9,16 @@ function Pizza(type,size,crust,topping,quantity){
   this.pizzaSize= size;
   this.pizzaCrust= crust;
   this.pizzaTopping= topping;
-  this.pizzaQuanity= quantity;
+  this.pizzaQuantity= quantity;
 }
 let pizzaType=document.getElementsByClassName("form-check-input").value;
 let pizzaSize= document.getElementsByClassName("size").value;
 let pizzaCrust= document.getElementsByClassName("crust").value;
 let pizzaTopping= document.getElementsByClassName("topping").value;
-let pizzaQuanity= parseInt(document.getElementById("pizza-numbers").value);
+let pizzaQuantity= parseInt(document.getElementById("pizza-numbers").value);
 
 
-var clientPizza= new Pizza(pizzaType,pizzaSize,pizzaCrust,pizzaTopping,pizzaQuanity);
+var clientPizza= new Pizza(pizzaType,pizzaSize,pizzaCrust,pizzaTopping,pizzaQuantity);
 
 Pizza.prototype.displayPrice= function(){
   if(Radio1.checked===true){
